@@ -26,6 +26,17 @@
 		<div class="reveal">
 			<div class="slides">
 				<section data-background="images/cover-accelerate.png" data-background-size="contain" data-background-color="black">
+					<aside class="notes">
+						To remain competive and excel in the market, organisations must accelerate:
+						<ul>
+							<li>delivery of goods and services to delight our customers</li>
+							<li>engagement with the market to detect and understand customer demand</li>
+							<li>anticipation of compliance and regulartory changes that impact their systems</li>
+							<li>response to potential risks such as security threats or changes in the economy</li>
+						</ul>
+						We will be looking at metrics to focus on in driving the acceleration, and the capabilities
+						that will most enable successful acceleration.
+					</aside>
 				</section>
 				<section>
 					<section>
@@ -36,7 +47,19 @@
 							<li>Mean Time to Restore (MTTR)</li>
 							<li>Change Fail Percentage</li>
 						</ul>
-					</section>
+						<aside class="notes">
+							Measuring performance allows us to see where a company is relative to others. These metrics
+							have been shown to be critial in differentiating high and low performing companies.<br>
+							<br>
+							When compared to low performers, high performers have:
+							<ul>
+								<li>46 times more frequent code deployments</li>
+								<li>440 times faster lead time from commit to deploy</li>
+								<li>170 times faster mean time to recover from downtime</li>
+								<li>5 times lower change failure rate (1/5 as likely for a change to fail)</li>
+							</ul>
+						</aside>
+						</section>
 					<section>
 						<h3>Metric: Lead Time</h3>
 						<table class="fragment" style="table-layout: fixed;">
@@ -56,6 +79,9 @@
 								<td>Between once per month and once ever six months</td>
 							</tbody>
 						</table>
+						<aside class="notes">
+							Lead time is the time it takes to start a piece of work, and have it in the hands of users
+						</aside>
 					</section>
 					<section>
 						<h3>Metric: Deployment Frequency</h3>
@@ -76,6 +102,9 @@
 								<td>Between once per month and once per 6 months</td>
 							</tbody>
 						</table>
+						<aside class="notes">
+							Deployment frequency is how often new versions of systems are deployed into production
+						</aside>
 					</section>
 					<section>
 						<h3>Metric: Mean Time to Restore (MTTR)</h3>
@@ -96,6 +125,10 @@
 								<td>Less than 1 day</td>
 							</tbody>
 						</table>
+						<aside class="notes">
+							MTTR is the time it takes from a the start of a service interuption to the interuption
+							being restored
+						</aside>
 					</section>
 					<section>
 						<h3>Metric: Change Fail Percentage</h3>
@@ -116,15 +149,30 @@
 								<td>16-30%</td>
 							</tbody>
 						</table>
+						<aside class="notes">
+							What percentange of changes to production fail (e.g. software releases and infrastructure
+							configuration changes)<br>
+							<br>
+							Note that the linkage between speed and quality is the reverse of what you might expect.
+							High performing organisations release much more frequently, <strong>and</strong> have a 
+							lower failure rate!
+						</aside>
 					</section>
 				</section>
 				<section>
-					<h2>Capabilities to Drive Improvement</h2>
+					<h2 style="font-size: 100%;">Capabilities to Drive Improvement</h2>
 					<img src="images/overall-capabilities.png">
+					<aside class="notes">
+						The authors identified 24 capaiblities that have the most influence over improving the
+						previously mentioned metrics. We'll go over those in more detail, now.
+					</aside>
 				</section>
 				<section>
 					<section>
 						<h3>Continuous Delivery Capabilities</h3>
+						<aside class="notes">
+							Capabilities that improve the ability of get updates in the hands of users.
+						</aside>
 					</section>
 					<section>
 						<h4>#1: Use version control for all production artifacts</h4>
@@ -206,6 +254,9 @@
 				<section>
 					<section>
 						<h3>Architecture Capabilities</h3>
+						<aside class="notes">
+							Capabilities that allow a divide and conquor approach.
+						</aside>
 					</section>
 					<section>
 						<h4>#9: Use a loosly coupled architecture</h4>
@@ -228,6 +279,9 @@
 				<section>
 					<section>
 						<h3>Product and Process Capabilities</h3>
+						<aside class="notes">
+							Capabilities that allow fast feedback
+						</aside>
 					</section>
 					<section>
 						<h4>#11: Gather and implement customer feedback</h4>
@@ -269,6 +323,9 @@
 				<section>
 					<section>
 						<h3>Lean Management and Monitoring Capabilities</h3>
+						<aside class="notes">
+							Capabilities that allow better decision making
+						</aside>
 					</section>
 					<section>
 						<h4>#15: Have a lightweight change approval process</h4>
@@ -310,11 +367,55 @@
 				<section>
 					<section>
 						<h3>Cultural Capabilities</h3>
+						<aside class="notes">
+							Capabilities which help unlock individual and group potential
+						</aside>
 					</section>
 					<section>
 						<h4>#20: Support a generative culture</h4>
+						<table class="fragment" style="font-size: 66%;">
+							<thead>
+								<tr>
+									<th>Pathological<br>(Power-Oriented)</th>
+									<th>Bureaucratic<br>(Rule-Oriented)</th>
+									<th>Generative<br>(Performance-Oriented)</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Low cooperation</td>
+									<td>Modest cooperation</td>
+									<td>High cooperation</td>
+								</tr>
+								<tr>
+									<td>Messengers "shot"</td>
+									<td>Messengers neglected</td>
+									<td>Messengers trained</td>
+								</tr>
+								<tr>
+									<td>Responsbilities shirked</td>
+									<td>Narrow responsiblities</td>
+									<td>Risks are shared</td>
+								</tr>
+								<tr>
+									<td>Bridging discouraged</td>
+									<td>Bridging tolerated</td>
+									<td>Bridging encouraged</td>
+								</tr>
+								<tr>
+									<td>Failure leads to scapegoating</td>
+									<td>Failure leads to justice</td>
+									<td>Failure leads to enquiry</td>
+								</tr>
+								<tr>
+									<td>Novelty crushed</td>
+									<td>Novelty leads to problems</td>
+									<td>Novelty implemented</td>
+								</tr>
+							</tbody>
+						</table>
 						<aside class="notes">
-							
+							Westrum Typology of Organisational Culture
 						</aside>
 					</section>
 					<section>
